@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #A7A7A7;
+    border: 1px solid black;
+    padding-top: 9%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%; 
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+/*Media stuff*/
+
+/*DESKTOP*/
+
+@media (min-width: 992px) {
+    .prvi, .drugi, .treci {
+        float: left;
+        height: 100%;
+    } 
+    .prvi {
+        width: 30%;
+        margin-left: 2%;
+        position: relative;
+        
+    }
+    .drugi {
+        width: 30%;
+    }
+    .treci {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .chicken {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #F89292;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .beef {
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 0%;
+        top: 0%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid black;
+    }
+
+    .sushi {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #EFF35D;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+    }
+
+    .here {
+        position: relative;
+    }
+
+    .there {
+        position: relative;
+    }
+
+    .ov {
+        position: relative;
+    }
+}
+
+/*TABLET*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .prvi, .drugi, .treci {
+        float: left;
+        height: 100%;
+    } 
+    .prvi, .drugi {
+        width: 47%;
+    }
+    .treci {
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;    
+    }
+    .prvi {
+        margin-left: 2%;
+        position: relative;
+    }
+
+    .drugi {
+        margin-right: 2%;
+    }
+
+    .chicken {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #F89292;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .beef {
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 0%;
+        top: 0%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid black;
+    }
+
+    .sushi {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #EFF35D;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+    }
+
+    .here {
+        position: relative;
+    }
+
+    .there {
+        position: relative;
+    }
+
+    .ov {
+        position: relative;
+    }
+}
+
+/*MOBILE*/
+
+@media (max-width: 767px) {
+    .prvi, .drugi, .treci {
+        float: left;
+    } 
+    .prvi, .drugi, .treci {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        
+    }
+
+    .chicken {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #F89292;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+    .beef {
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 0%;
+        top: 0%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid black;
+    }
+
+    .sushi {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: #EFF35D;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+    }
+
+    .here {
+        
+        position: relative;
+    }
+    
+    .there {
+        position: relative;
+    }
+
+    .ov {
+        position: relative;
+    }
+}
